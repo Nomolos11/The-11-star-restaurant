@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  color: white;
+}
+
+#header {
+  background-image: url(https://images01.nicepage.com/a1389d7bc73adea1e1c1fb7e/4000b7b59e3f5e8994d12620/pexels-photo-7545837.jpeg);
+  height: 100vh;
+  width: 100vw;
+  background-position-x: 50%;
+  background-position-y: 83.87%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+#header h1 {
+  font-size: 5rem;
+}
+
+#header p {
+  color: white;
+  text-align: center;
+  width: 60%;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.button-group {
+  font-size: 18px;
+}
+
+.green,
+.white {
+  font-weight: bold;
+  padding: 16px 54px;
+  border-radius: 100px;
+  border: none;
+}
+
+.button-group .green {
+  background-color: #c1cc0d;
+  color: white;
+  margin-right: 10px;
+}
+
+.button-group .green:hover {
+  background-color: aqua;
+  color: black;
+}
+
+.button-group .white {
+  background-color: white;
+  color: rgb(14, 84, 197);
+}
+
+.button-group .white:hover {
+  background-color: rgb(14, 84, 197);
+  color: white;
+}
